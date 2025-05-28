@@ -13,6 +13,12 @@
   font-weight: 700;
   font-style: normal;
 }
+@font-face {
+  font-family: 'BigShouldersDisplay-Bold';
+  src: url('./fonts/BigShouldersDisplay-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
 
 html{
     box-sizing: border-box;
@@ -61,6 +67,8 @@ main{
 .car-block img{
     margin-left: 50px;
     margin-top: 50px;
+
+    width: 80px;
 }
 
 .first{
@@ -92,13 +100,13 @@ main{
 }
 
 .car-title{
-    color: hsl(0, 0%, 95%);
+    color: hsl(0, 0%, 90%);
 
-    font-family: "BigShouldersDisplay", sans-serif;
+    font-family: "BigShouldersDisplay-Bold", sans-serif;
 
     margin-left: 55px;
     margin-bottom: 30px;
-    font-size: 50px;
+    font-size: 45px;
 }
 
 .car-desc{
