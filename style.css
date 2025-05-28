@@ -1,3 +1,4 @@
+/*p, button*/
 @font-face {
   font-family: 'LexendDeca';
   src: url('./fonts/LexendDeca-Regular.ttf') format('truetype');
@@ -5,6 +6,7 @@
   font-style: normal;
 }
 
+/*title font*/
 @font-face {
   font-family: 'BigShouldersDisplay';
   src: url('./fonts/BigShouldersDisplay-Regular.ttf') format('truetype');
@@ -52,7 +54,7 @@ main{
 }
 
 .car-block{
-    width: 345px;
+    width: 350px;
     height: 570px;
 }
 
@@ -75,10 +77,18 @@ main{
     background-color: hsl(184, 100%, 22%);
 }
 
+.second button{
+    color: hsl(184, 100%, 22%);
+}
+
 .third{
     background-color: hsl(179, 100%, 13%);
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
+}
+
+.third button{
+    color: hsl(179, 100%, 13%);
 }
 
 .car-title{
@@ -92,7 +102,7 @@ main{
 }
 
 .car-desc{
-    color: hsla(0, 0%, 100%, 0.65);
+    color: hsla(0, 0%, 100%, 0.55);
 
     font-family: "LexendDeca", sans-serif;
     line-height: 1.6;
@@ -107,7 +117,7 @@ button {
   background-color: hsl(0, 0%, 95%);              
   border: none;                 
   height: 55px;   
-  width: 175px;                 
+  width: 170px;                 
   font-size: 17px;           
   cursor: pointer;               
   font-family: 'LexendDeca', sans-serif; 
