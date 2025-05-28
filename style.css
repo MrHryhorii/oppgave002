@@ -52,15 +52,23 @@ main{
 }
 
 .car-block{
-    flex-shrink: 1;
-    width: 300px;
-    height: 500px;
+    width: 345px;
+    height: 570px;
+}
+
+.car-block img{
+    margin-left: 50px;
+    margin-top: 50px;
 }
 
 .first{
     background-color: hsl(31, 77%, 52%);
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
+}
+
+.first button{
+    color: hsl(31, 77%, 52%);
 }
 
 .second{
@@ -77,24 +85,40 @@ main{
     color: hsl(0, 0%, 95%);
 
     font-family: "BigShouldersDisplay", sans-serif;
-    font-weight: 400;
-    font-style: normal;
 
-    font-size: 32px;
+    margin-left: 55px;
+    margin-bottom: 30px;
+    font-size: 50px;
+}
+
+.car-desc{
+    color: hsla(0, 0%, 100%, 0.65);
+
+    font-family: "LexendDeca", sans-serif;
+    line-height: 1.6;
+
+    margin-top: 0px;
+    margin-left: 55px;
+    margin-right: 55px;
+    font-size: 17px;
 }
 
 button {
-  background-color: darkgrey; 
-  color: white;                
+  background-color: hsl(0, 0%, 95%);              
   border: none;                 
-  border-radius: 8px;            
-  padding: 10px 20px;            
-  font-size: 16px;           
+  height: 55px;   
+  width: 175px;                 
+  font-size: 17px;           
   cursor: pointer;               
   font-family: 'LexendDeca', sans-serif; 
+
+  border-radius: 30px;
+
+  margin-top: 70px;
+  margin-left: 55px;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 1050px) {
 
     body{
         display: block;
