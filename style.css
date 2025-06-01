@@ -16,8 +16,8 @@
 @font-face {
   font-family: 'BigShouldersDisplay-Bold';
   src: url('./fonts/BigShouldersDisplay-Bold.ttf') format('truetype');
-  font-weight: 700;
-  font-style: normal;
+  font-weight: 900;
+  font-style: bold;
 }
 
 html{
@@ -28,7 +28,7 @@ body{
     margin: 0;
     background-color: hsl(0, 0%, 95%);
     height: 100vh;
-    min-width: 1150px;
+    min-width: 1000px;
 
     display: flex;
     flex-direction: column;
@@ -59,15 +59,15 @@ main{
 }
 
 .car-block{
-    width: 350px;
-    height: 570px;
+    width: 307px;
+    height: 500px;
 }
 
 .car-block img{
     margin-left: 50px;
     margin-top: 50px;
 
-    width: 80px;
+    width: 65px;
 }
 
 .first{
@@ -103,9 +103,10 @@ main{
 
     font-family: "BigShouldersDisplay-Bold", sans-serif;
 
-    margin-left: 55px;
-    margin-bottom: 30px;
-    font-size: 45px;
+    margin-top: 30px;
+    margin-left: 50px;
+    margin-bottom: 28px;
+    font-size: 40px;
 }
 
 .car-desc{
@@ -115,24 +116,24 @@ main{
     line-height: 1.6;
 
     margin-top: 0px;
-    margin-left: 55px;
-    margin-right: 55px;
-    font-size: 17px;
+    margin-left: 49px;
+    margin-right: 46px;
+    font-size: 15px;
 }
 
 button {
-  background-color: hsl(0, 0%, 95%);              
-  border: none;                 
-  height: 55px;   
-  width: 170px;                 
-  font-size: 17px;           
-  cursor: pointer;               
-  font-family: 'LexendDeca', sans-serif; 
+    background-color: hsl(0, 0%, 95%);              
+    border: none;                 
+    height: 48px;   
+    width: 148px;                 
+    font-size: 16px;           
+    cursor: pointer;               
+    font-family: 'LexendDeca', sans-serif; 
 
-  border-radius: 30px;
+    border-radius: 30px;
 
-  margin-top: 70px;
-  margin-left: 55px;
+    margin-top: 68px;
+    margin-left: 50px;
 }
 
 @media (max-width: 512px) {
